@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import NavBar from '../components/Navbar';
 import Watch from '../components/Watch';
 import TitleDiv from '../components/TitleDiv';
+import Group from '../components/Group';
 const index = () => {
     return ( 
     <div>
@@ -19,6 +20,10 @@ const index = () => {
                 </div>
                 <div className='groupChatsCont'>
                     <TitleDiv />
+                    <Group />
+                    <Group />
+                    <Group />
+                    <Group />
                 </div>              
             </div>
         </div>

@@ -44,3 +44,10 @@ code {
   flex-direction: column;
   gap: 16px;
 }
+
+.groupChatsCont{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
