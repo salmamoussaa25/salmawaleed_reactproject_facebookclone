@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p, h1{
+  margin: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -26,7 +30,7 @@ code {
   padding-top: 34px;
   align-content: center;
   align-items: center;
-gap: 50px;
+  gap: 50px;
   
 }
 
@@ -38,4 +42,5 @@ gap: 50px;
 .watchComponents{
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }

@@ -1,0 +1,27 @@
+.titleDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 310px;
+}
+
+.title{
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.seeall{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 13px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;   
+    color: #1877F2; 
+}

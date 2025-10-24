@@ -3,6 +3,7 @@ import "./Home.css"
 import Button from '../components/Button';
 import NavBar from '../components/Navbar';
 import Watch from '../components/Watch';
+import TitleDiv from '../components/TitleDiv';
 const index = () => {
     return ( 
     <div>
@@ -16,6 +17,9 @@ const index = () => {
                     <Watch />
                     <Watch />
                 </div>
+                <div className='groupChatsCont'>
+                    <TitleDiv />
+                </div>              
             </div>
         </div>
     </div> );
