@@ -7,6 +7,7 @@ import TitleDiv from '../components/TitleDiv';
 import Group from '../components/Group';
 import StoryReel from '../components/StoryReel';
 import Post from '../components/Post';
+import PostFeed from '../components/PostFeed';
 const index = () => {
     return ( 
     <div>
@@ -35,6 +36,9 @@ const index = () => {
                     <StoryReel />
                 </div>
                 <Post />
+                <PostFeed />
+                <PostFeed />
+                <PostFeed />
             </div>
         </div>
     </div> );

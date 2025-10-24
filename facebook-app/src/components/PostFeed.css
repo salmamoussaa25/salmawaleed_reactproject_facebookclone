@@ -1,0 +1,48 @@
+.entirePost{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    width: 678px;
+    height: 503px;
+    border: none;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.postDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: row;
+}
+  
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+  
+.userPfp{
+    width: 40px;
+    height: 40px;
+}
+
+.userName_Date{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.datePublic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

@@ -56,6 +56,8 @@ code {
   flex-direction: column;
   margin: 5px;
   background-color: rgb(215, 215, 215);
+  align-items: center;
+  gap: 10px;
 }
 
 .storyReelsCont{
@@ -76,12 +78,5 @@ code {
   gap: 50px;
 }
 
-.createPostComp{
-  width: 710px;
-  height: 128px;
-  top: 386px;
-  left: 365px;
-  border-radius: 7px;
-  
-}
+
 
