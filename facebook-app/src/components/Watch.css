@@ -1,0 +1,13 @@
+.watchDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.watchIcon{
+    width: 20px;
+    height: 17px;
+    
+}

@@ -20,9 +20,22 @@ code {
 .sideBarRight{
   display: flex;
   flex-direction: column;
+  width: 345px;
+  height: 1658px;
+  background-color: aliceblue;
+  padding-top: 34px;
+  align-content: center;
+  align-items: center;
+gap: 50px;
+  
 }
 
 .watchLiveCont{
+  display: flex;
+  flex-direction: column;
+}
+
+.watchComponents{
   display: flex;
   flex-direction: column;
 }
