@@ -5,6 +5,7 @@ import NavBar from '../components/Navbar';
 import Watch from '../components/Watch';
 import TitleDiv from '../components/TitleDiv';
 import Group from '../components/Group';
+import StoryReel from '../components/StoryReel';
 const index = () => {
     return ( 
     <div>
@@ -25,6 +26,13 @@ const index = () => {
                     <Group />
                     <Group />
                 </div>              
+            </div>
+            <div className='middleSection'>
+                <div className='storyReelsCont'>
+                    <StoryReel />
+                    <StoryReel />
+                    <StoryReel />
+                </div>
             </div>
         </div>
     </div> );
