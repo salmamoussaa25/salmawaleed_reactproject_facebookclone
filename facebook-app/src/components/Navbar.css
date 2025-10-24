@@ -1,8 +1,12 @@
 .navBar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 100vw;
+    padding-top: 28px;
+    padding-bottom: 16px;
+    padding-left:24px;
+    gap: 540px;
 
 }
 
@@ -14,4 +18,5 @@
 
 .homeIcon{
     width: 28px;
+    height: 28px;
 }

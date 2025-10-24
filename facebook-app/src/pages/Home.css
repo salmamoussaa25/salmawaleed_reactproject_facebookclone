@@ -16,3 +16,13 @@ code {
   display: flex;
   flex-direction: row;
 }
+
+.sideBarRight{
+  display: flex;
+  flex-direction: column;
+}
+
+.watchLiveCont{
+  display: flex;
+  flex-direction: column;
+}
