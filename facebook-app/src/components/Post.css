@@ -1,0 +1,55 @@
+.postCont{
+    width: 700px;
+    height: 128px;
+    border-radius: 7px;
+    padding: 12px;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    background: white;
+    gap: 12px;
+}
+
+.createSection{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+
+.postTextInput{
+    width: 597px;
+    height: 20px;
+    border-radius: 31px;
+    border: none;
+    background: #F0F2F5;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+hr{
+    width: 655px;
+    height: 0px;
+    border: 1px solid #E4E6EB;
+}
+
+.contentOptionsCont{
+    display: flex;
+    flex-direction: row;
+    gap: 94px;
+    justify-content: center;
+}
+
+.contentOption{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    width: fit-content;
+       
+}

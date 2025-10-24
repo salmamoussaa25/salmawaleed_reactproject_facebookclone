@@ -76,3 +76,12 @@ code {
   gap: 50px;
 }
 
+.createPostComp{
+  width: 710px;
+  height: 128px;
+  top: 386px;
+  left: 365px;
+  border-radius: 7px;
+  
+}
+

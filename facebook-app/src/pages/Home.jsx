@@ -6,6 +6,7 @@ import Watch from '../components/Watch';
 import TitleDiv from '../components/TitleDiv';
 import Group from '../components/Group';
 import StoryReel from '../components/StoryReel';
+import Post from '../components/Post';
 const index = () => {
     return ( 
     <div>
@@ -33,6 +34,7 @@ const index = () => {
                     <StoryReel />
                     <StoryReel />
                 </div>
+                <Post />
             </div>
         </div>
     </div> );
